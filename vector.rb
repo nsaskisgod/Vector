@@ -16,14 +16,6 @@ class Vector
     return Math::sqrt((array[0]**2+array[1]**2))
   end
 
-  def getName_x
-    return @x
-  end
-
-  def getName_y
-    return @y
-  end
-
   attr_accessor :x
   attr_accessor :y
 
