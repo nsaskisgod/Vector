@@ -20,7 +20,7 @@ class Vector
   attr_accessor :y
 
   def add( vec )
-    return "(#{@x+vec.x},#{@y+vec.y})"
+    Vector.new(@x+vec.x,@y+vec.y)
   end
 
 end
